@@ -94,16 +94,6 @@ public class RobotMap {
             this.direction = direction;
         }
 
-        public void printMap(){
-            for (int i = 0; i < map.n ; i++) {
-                System.out.println();
-                for (int j = 0; j < map.m; j++) {
-                    System.out.print("-");
-                }
-                
-            }
-        }
-
         public MapPoint getPoint() {
             return point;
         }
